@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int sum1 = 0;
+	int sum2 = 0;
+	int sum = 0;
+
+	scanf_s("%d%d", &sum1, &sum2);
+	sum = sum1 + sum2;
+	printf("sum = %d\n",sum );
+	return 0;
+
+}
